@@ -5,7 +5,7 @@
   <title>Резюме</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/text.css">
+  <link rel="stylesheet" href="text.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 </head>
 <body>
@@ -14,9 +14,9 @@
   <div class="row buffer-top">
     <center><h5>Беркович Михаил Вячеславович</h5></center>
       <div class="three columns buffer-top">
-        <img src="assets/photo.jpg" alt="Фотография" height=200>
+        <img src="assets/photo.jpg" alt="Фотография" class="circle-img">
       </div>
-      <div class="five columns buffer-top">
+      <div class="five columns buffer-top" id="info">
         <h5>О себе</h5>
         <ul>
           <li><b>Возраст: </b> 26 лет</li>
@@ -24,7 +24,7 @@
           <li><b>Место проживания: </b>г. Омск</li>
         </ul>
       </div>
-      <div class="four columns buffer-top" style="margin-left: -20px">
+      <div class="four columns buffer-top" id="info" style="margin-left: -20px">
         <ul>
           <li><b>Занятость: </b>Полная занятость, удалённая работа</li>
           <li><b>Рабочий день: </b> Полный</li>
@@ -36,7 +36,7 @@
 
   <div class="row">
     <div class="twelve columns buffer-top align">
-      <h4>Контактные данные</h4>
+      <h4 class="bordering">Контактные данные</h4>
       <ul>
         <li><b>Контактный телефон: </b>+7 (913) 616-85-45</li>
         <li><b>E-mail: </b><a href="mailto:combos93@mail.ru">combos93@mail.ru</a></li>
@@ -47,22 +47,22 @@
   </div>
 
    <div class="row align">
-    <div class="four columns"><h5>Желаемая должность:</h5></div>
-    <div class="seven columns"><h5>Ruby on Rails Developer / Back-End Developer</h5></div>
+    <div class="four columns"><h5 style="margin: -20px 0 0 0;"><u>Желаемая должность:</u></h5></div>
+    <div class="seven columns"><h5 style="margin: -20px 0 0 -60px;">Ruby on Rails Developer / Back-End Developer</h5></div>
   </div>
 
   <div class="row buffer-top align">
       <div class="six columns">
-        <b style="font-size: 16px; margin-top: 30px">Профессиональные навыки:</b>
+        <b style="font-size: 16px; margin-top: 30px;">Профессиональные навыки:</b>
       </div>
       <div class="six columns">
-          <b style="font-size: 16px; margin-top: 30px">Взглянуть на мой код можно здесь</b>
+        <b style="font-size: 16px; margin-top: 30px;">Взглянуть на мой код можно здесь</b>
      </div>
   </div>
   
     <div class="row align">
       <div class="six columns">
-        <ul class="bordering" style="margin: 10px 0px;">
+        <ul style="margin: 10px 0px;">
           <li><b>Ruby:</b></li>
             <ul>
               <li>Rails</li>
@@ -85,7 +85,7 @@
               <li>HTML5</li>
               <li>CSS3</li>
               <li>JavaScript</li>
-              <li>CoffeeScript</li>
+              <li>CofeeScript</li>
               <li>jQuery</li>
               <li>Skeleton</li>
               <li>Bootstrap</li>
@@ -96,6 +96,7 @@
           </li>
           <li><b>DevOps:</b></li>
             <ul>
+              <li>CI/CD: внедрение/использование, понимание принципов организации</li>
               <li>Heroku</li>
               <li>AWS</li>
               <li>VPS</li>
@@ -149,8 +150,8 @@
     </div>
 
       <div class="row">
-    <div class="twelve columns">
-      <h5>Опыт работы</h5>
+    <div class="three columns">
+      <h5 style="border-bottom: solid 1px gray;">Опыт работы</h5>
     </div>
   </div>
 
@@ -194,16 +195,8 @@
 
 
   <div class="row">
-    <div class="four columns">
-      <h5>Языки</h5>
-      <ul>
-        <li><b>Русский: </b>родной</li>
-        <li><b>Английский: </b>Чтение технической документации; B2(Upper Intermediate)</li>
-        <li><b>Японский: </b>N5</li>
-      </ul>
-    </div>
     <div class="eight columns">
-      <h5>Образование</h5>
+      <h5 style="border-bottom: solid 1px gray;">Образование</h5>
       <ul>
         <li>
           <a href="https://sibadi.org">Сибирский государственный автомобильно-дорожный университет (СибАДИ)</a> (2011-2015)
@@ -220,7 +213,7 @@
           <p class="buffer-both"><b>Квалификация: </b>Инженер (магистр)</p>
       </ul>
 
-      <h5>Образование</h5>
+      <h5 style="border-bottom: solid 1px gray;">Дополнительное образование</h5>
       <ul>
         <li>
           <a href="http://www.mgutm.ru/">МГУТУ имени К.Г. Разумовского в г. Омск</a> октябрь 2013 - декабрь 2013
@@ -231,11 +224,19 @@
         </li></b>
       </ul>
     </div>
+    <div class="four columns">
+        <h5 style="border-bottom: solid 1px gray;">Языки</h5>
+        <ul>
+          <li><b>Русский: </b>родной</li>
+          <li><b>Английский: </b>Чтение технической документации; B2(Upper Intermediate)</li>
+          <li><b>Японский: </b>N5</li>
+        </ul>
+      </div>
   </div>
 
   <div class="row">
       <div class="twelve columns">
-        <h5>Дополнительные сведения</h5>
+        <h5 style="border-bottom: solid 1px gray;">Дополнительные сведения</h5>
       </div>
     </div>
   
