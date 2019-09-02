@@ -14,4 +14,12 @@
   margin-top: 20px;
   padding-top: 20px; }
 
+ul li {
+  list-style-type: none; }
+
+/*.no-bullet {
+    list-style-type: none;
+  }
+*/
+
 /*# sourceMappingURL=text.css.map */
