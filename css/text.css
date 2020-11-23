@@ -11,6 +11,7 @@
 
 .bordering {
   border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
   margin-top: 20px;
   padding-top: 20px; }
 
