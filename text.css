@@ -17,9 +17,5 @@
 ul li {
   list-style-type: none; }
 
-/*.no-bullet {
-    list-style-type: none;
-  }
-*/
-
-/*# sourceMappingURL=text.css.map */
+.turn-p {
+  margin-top: -10px; }
