@@ -68,7 +68,7 @@
 
     <div class="row align">
     <div class="six columns">
-      <ul style="margin: 10px 0px; margin-top: -10px;">
+      <ul style="margin: -10px 0 10px;">
         <div class="buffer-top">
           <li><b>Ruby</b></li>
         </div>
@@ -87,7 +87,7 @@
           <li><b>Rails</b></li>
           <p>Знакомство и коммерческая работа с Rails, начиная с версии 3.22.5 и до наших дней.</p>
           <p style="margin-top: -10px;">Знакомство с монолитной архитектурой.</p>
-          <p style="margin-top: -10px;">Знакомство с протоколом AMQP.</p>
+          <p style="margin-top: -10px;">Знакомство с протоколами AMQP, jRPC.</p>
           <p style="margin-top: -10px;">Успешный коммерческий опыт работы с GraphQL на протяжении 4 месяцев: написание API, на основе GraphQL, с нуля, тестирование GraphQL, реализация загрузки файлов через GraphQL</p>
         </div>
         <div class="buffer-top">
@@ -98,18 +98,18 @@
         <div class="buffer-top">
           <li><b>Grape</b></li>
         </div>
-        <p>Опыт работы с Grape (улучшение авторизации на проекте с Grape-API), а также Grape-Entities (кастомизация Entities), Swagger (подключение к Grape и настройка).</p>
+        <p>Опыт работы с Grape (написание API, также расширение имеющихся), а также Grape-Entities,
+          Swagger (подключение к Grape и настройка).</p>
         <div class="buffer-top">
           <li><b>SQL</b></li>
         </div>
-        Написание запросов на чистом SQL (PostgreSQL) и ORM (ActiveRecord),
-        небольшой опыт в оптимизации запросов (добавление индексов, анализ запросов с помощью EXPLAIN / EXPLAIN ANALYZE).
+        Написание запросов на SQL и ORM, небольшой опыт в оптимизации запросов (добавление индексов, анализ запросов с помощью EXPLAIN / EXPLAIN ANALYZE).
         <div class="buffer-top">
           <li><b>Frontend</b></li>
         </div>
         <p style="margin-top: -15px;"></p>HTML5, CSS3, JavaScript, jQuery, CoffeeScript, Bootstrap, Sass - опыт простой вёрстки по
         сетке. NPM/Yarn.</p>
-        <p style="margin-top: -10px;"></p>Написание скриптов на JavaScript (ES6).</p>
+        <p style="margin-top: -10px;"></p>Написание скриптов на JavaScript.</p>
         <div class="buffer-top">
           <li><b>React</b></li>
         </div>
@@ -126,10 +126,6 @@
         CI).
           <p class="turn-p">Настройка CircleCI - с нуля до поэтапной проверки по коммиту.
           <p class="turn-p">Опыт настройки и поднятия серверов с помощью Dokku.
-        <div class="buffer-top">
-          <li><b>Git</b></li>
-        </div>
-        Владение Git (push, pull, branches, merge/rebase, squash, cherry-pick, bisect, reflog/filter-branch)
         <div class="buffer-top">
           <li><b>Unix</b></li>
         </div>
@@ -168,7 +164,7 @@
       <div class="buffer-both bordering">
         <b>Интерес к языкам программирования и фреймворкам (собираюсь научиться или углубить свои знания):</b> 
         
-        <p style="margin-top: 5px;"><b>Языки: </b>Ruby, Elixir, Go, JavaScript, TypeScript, Crystal, Python.</p>
+        <p style="margin-top: 5px;"><b>Языки: </b>Ruby, Elixir, Python, Go, JavaScript, TypeScript, Crystal.</p>
         <p style="margin-top: 5px;"><b>Фреймворки: </b>Rails, Grape, Phoenix, React.</p>  
         <p style="margin-top: 5px;"><b>Технологии: </b>Node, Kubernetes.</p>  
       </div>
@@ -186,11 +182,23 @@
           </li>
           <p class="buffer-both">Декабрь 2020 – настоящее время</p>
           <p class="buffer-both"><b>Должность: </b>Старший разработчик</p>
-          <p class="buffer-both"><b>Обязанности: </b> Участие в Backend - разработке. Разработка нового функционала, устранение недочётов (Bug Fixing). Тестирование функционала.
+          <p class="buffer-both"><b>Обязанности: </b> Участие в Backend - разработке. Разработка нового функционала:
+            расширение CRM и LMS API с помощью фреймворков Grape и Rails,
+            выделение одинакового функционала в монады (с помощью Dry-Monads),
+            устранение недочётов (Bug Fixing). Тестирование функционала. Участие в Code Review.
 
           <p class="buffer-both" style="border-top: solid 1px #dedede; padding-top: 10px">Август 2020 – ноябрь 2020</p>
           <p class="buffer-both"><b>Должность: </b>Backend разработчик</p>
-          <p class="buffer-both"><b>Обязанности: </b> Участие в Backend - разработке. Разработка нового функционала, устранение недочётов (Bug Fixing). Тестирование функционала. Самостоятельный deploy на Stage и Production - среды. Участие в Code Review коллег. Самостоятельная настройка и поднятие Stage и Production - серверов на основе Dokku.
+          <p class="buffer-both"><b>Обязанности: </b> Участие в Backend - разработке.
+            Разработка нового функционала: выделение Админ-панели в отдельное приложение, выполненное на основе
+            библиотеки ActiveAdmin;
+            написание API с нуля на основе Rails и GraphQL;
+            написание сервисов на Ruby;
+            устранение недочётов (Bug Fixing).
+            Тестирование функционала.
+            Самостоятельный deploy на Stage и Production - среды.
+            Участие в Code Review коллег.
+            Самостоятельная настройка и поднятие Stage и Production - серверов на основе Dokku.
           <p class="buffer-both"><b>Достижения: </b> Коммерчески успешное создание платформы для тренировки перед ОГЭ и ЕГЭ, с нуля до финальной эксплуатации на Production.
           Backend реализован на GraphQL с использованием функционала отложенных задач, с полным выделением админ-панели в отдельное приложение. Отдельные части приложения также выделены в отдельные приложения.
           </p>
@@ -205,7 +213,7 @@
           </li>
           <p class="buffer-both">2019 – 2020</p>
           <p class="buffer-both"><b>Должность: </b>Ruby разработчик</p>
-          <p class="buffer-both"><b>Обязанности: </b>Участие в разработке высоконагруженных сервисов для Абсолют-банка, 
+          <p class="buffer-both"><b>Обязанности: </b>Участие в разработке высоконагруженных сервисов для Абсолют-банка (использование фреймворков Rails и Grape, а также Trailblazer (Operations)),
             а также их поддержка и развитие. Решение интеграционных задач. Тестирование разрабатываемого кода. 
             Участие в разработке админ-панели подсчёта кредитных заявок для банка ТКБ.
           </p>
